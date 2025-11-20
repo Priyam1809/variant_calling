@@ -1,17 +1,5 @@
 #!/bin/bash
 # GATK Step-by-Step Interactive Pipeline
-# Author: Priyam1809
-# Date: 2025-11-20
-#
-# This script lists and runs the common GATK-based variant calling steps one by one.
-# Each step includes a short explanation and expected outputs. Replace placeholders
-# with your actual file paths before running.
-#
-# Usage (Linux/WSL):
-#   1) Edit placeholders below (SEARCH FOR "PLACEHOLDER").
-#   2) Make executable: chmod +x gatk_step_by_step.sh
-#   3) Run interactively: ./gatk_step_by_step.sh
-#
 set -euo pipefail
 
 ### ======= PLACEHOLDERS: update these before running ======= ###
